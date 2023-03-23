@@ -116,7 +116,8 @@ section .catalog{
     padding: 100px;   
 }
 section .filter-card{
-    width: 980px;
+    max-width: 980px;
+    min-width: 280px;
     height: 150px;
     background: var(--blue);
     border-radius: 8px;
